@@ -2,7 +2,7 @@
 
 The SEO plugin adds SEO best practices to your cake application. It creates disambiguated slugs and canonical links
 
-## Installation ## 
+## Installation ##
 
 1. Drop the Seo plugin into the Plugin directory
 2. Add CakePlugin::load('Seo'); to your bootstrap.php file
