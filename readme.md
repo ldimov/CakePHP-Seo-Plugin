@@ -4,9 +4,9 @@ The SEO plugin adds SEO best practices to your cake application. It creates disa
 
 ## Installation ## 
 
-#Drop the Seo plugin into the Plugin directory
-#Add CakePlugin::load('Seo'); to your bootstrap.php file
-#Make sure the tables on which your adding this behavior have the following columns
+1. Drop the Seo plugin into the Plugin directory
+2. Add CakePlugin::load('Seo'); to your bootstrap.php file
+3. Make sure the tables on which your adding this behavior have the following columns
 *slug
 *base_slug
 *canonical
