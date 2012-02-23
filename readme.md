@@ -9,6 +9,8 @@ The SEO plugin adds SEO best practices to your cake application. It creates disa
 3. set your $Model->find* to search on slug
 4. Make sure the tables on which your adding this behavior have the following columns
 
+
+
 * slug
 * base_slug
 * canonical
