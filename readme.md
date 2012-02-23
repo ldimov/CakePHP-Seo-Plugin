@@ -21,11 +21,13 @@ The SEO plugin adds SEO best practices to your cake application. It creates disa
 
 ## Usage ##
 SeoBehavior expects a title column, if your table has one, you may simply add the following to your model
+
     public $actsAs = array(
     'Seo.Seo'
     );
 
 Otherwise you may use the convert setting against a given column, for example if name is the equivalent of title
+
     public $actsAs = array(
         'Seo.Seo'=>array(
             'convert'=>'name'
