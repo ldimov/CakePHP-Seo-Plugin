@@ -6,18 +6,13 @@ The SEO plugin adds SEO best practices to your cake application. It creates disa
 
 1. Drop the Seo plugin into the Plugin directory
 2. Add CakePlugin::load('Seo'); to your bootstrap.php file
-3. Make sure the tables on which your adding this behavior have the following columns
+3. set your $Model->find* to search on slug
+4. Make sure the tables on which your adding this behavior have the following columns
 
-3.1 slug
+* slug
+* base_slug
+* canonical
 
-3.2 base_slug
-
-3.3 canonical
-
-4 set your $Model->find* to search on slug
-
-
-Column definitions
 
     public $requiredColumns = array(
         'slug' => array('type' => 'string', 'null' => false, 'default' => NULL, 'length' => 500, 'key' => 'unique', 'collate' => 'latin1_swedish_ci', 'comment' => 'This is your disambiguated slug', 'charset' => 'latin1'),
