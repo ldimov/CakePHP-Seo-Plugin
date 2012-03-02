@@ -12,6 +12,8 @@
 
 /**
  * Auto-magically populate deals with slug creation and basic SEO behaviors
+ * @package Plugins.Seo
+ * @subpackage	Plugin.Seo.Model.Behaviors
  * @author Jason D Snider <jason.snider@42viral.org>
  */
 class SeoBehavior extends ModelBehavior

@@ -13,6 +13,8 @@
 App::uses('AppModel', 'Model');
 /**
  * GenericContent class
+ * @package Plugin.Seo
+ * @subpackage Plugin.Seo.Test.Cases.Behavior
  * @author Jason D Snider <root@jasonsnider.com>
  */
 class GenericContent extends CakeTestModel {
@@ -38,6 +40,8 @@ class GenericContent extends CakeTestModel {
 
 /**
  * Article class
+ * @package Plugin.Seo
+ * @subpackage Plugin.Seo.Test.Cases.Behavior
  * @author Jason D Snider <root@jasonsnider.com>
  */
 class Article extends CakeTestModel {
@@ -65,6 +69,8 @@ class Article extends CakeTestModel {
 
 /**
  * SeoBehavior test class.
+ * @package Plugin.Seo
+ * @subpackage Plugin.Seo.Test.Cases.Behavior
  * @author Jason D Snider <root@jasonsnider.com>
  */
 class SeoBehaviorTest extends CakeTestCase {
