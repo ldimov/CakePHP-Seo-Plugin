@@ -12,7 +12,7 @@
 
 /**
  * Auto-magically populate deals with slug creation and basic SEO behaviors
- * @package Plugins.Seo
+ * @package Plugin.Seo
  * @subpackage	Plugin.Seo.Model.Behaviors
  * @author Jason D Snider <jason.snider@42viral.org>
  */
