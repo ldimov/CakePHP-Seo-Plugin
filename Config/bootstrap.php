@@ -1,3 +1,4 @@
+
 <?php
 /**
  * This file is loaded automatically by the app/webroot/index.php file after core.php
@@ -126,3 +127,32 @@ Cache::config('default', array('engine' => 'File'));
 App::build(array(
     'Console/Command' => array(ROOT . DS . APP_DIR . DS . 'Plugin' . DS . 'Seo' . DS . 'Console' . DS . 'Command' . DS),
 ));
+
+//Define static picklists
+$priority = array(
+    '0.0'=>'0.0',
+    '0.1'=>'0.1',
+    '0.2'=>'0.2',
+    '0.3'=>'0.3',
+    '0.4'=>'0.4',
+    '0.5'=>'0.5',
+    '0.6'=>'0.6',
+    '0.7'=>'0.7',
+    '0.8'=>'0.8',
+    '0.9'=>'0.9',
+    '1.0'=>'1.0'
+);
+
+$changefreq = array(
+    'always'=>'always',
+    'hourly'=>'hourly',
+    'daily'=>'daily',
+    'weekly'=>'weekly',
+    'monthly'=>'monthly',
+    'yearly'=>'yearly',
+    'never'=>'never'
+);
+
+
+Configure::write('Picklist.Sitemap.priority', $priority);
+Configure::write('Picklist.Sitemap.changefreq', $changefreq);
