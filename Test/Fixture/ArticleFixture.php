@@ -1,8 +1,8 @@
 <?php
 
 /**
- * @package       Test
- * @subpackage    Test.fixtures
+ * @package Plugin.Seo
+ * @subpackage Plugin.Seo.Test.Fixture
  */
 class ArticleFixture extends CakeTestFixture {
 

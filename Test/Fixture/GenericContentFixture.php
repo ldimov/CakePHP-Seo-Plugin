@@ -1,12 +1,10 @@
 <?php
-
-
 /**
  * Creates a generic content object for testing behavior functionality outside of the context of an actual data model.
  * This should provide a more pure test of functionality.
  *
- * @package       Test
- * @subpackage    Test.fixtures
+ * @package Plugin.Seo
+ * @subpackage Plugin.Seo.Test.Fixture
  */
 class GenericContentFixture extends CakeTestFixture {
 
