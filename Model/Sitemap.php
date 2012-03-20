@@ -28,7 +28,7 @@ class Sitemap extends AppModel
         'Content' => array(
             'className' => 'Content',
             'foreignKey' => 'model_id',
-            'conditions'=>array('Content.model_id'),
+            'conditions'=>array('Sitemap.model_id LIKE "Content"'),
             'dependent' => true
         )
     );
